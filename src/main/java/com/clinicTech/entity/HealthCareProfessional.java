@@ -8,6 +8,10 @@ import jakarta.persistence.MapsId;
 import jakarta.persistence.OneToOne;
 
 @Entity
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class HealthCareProfessional {
     @Id
     private long id;

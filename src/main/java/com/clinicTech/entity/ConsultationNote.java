@@ -11,6 +11,10 @@ import jakarta.persistence.Lob;
 import jakarta.persistence.OneToOne;
 
 @Entity
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 
 public class ConsultationNote {
     @Id
